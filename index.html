@@ -60,6 +60,104 @@
           <li>Push your changes to the remote repository on GitHub.</li>
         </ol>
       </section>
+      <div class="container">
+        <h1>Basic Git Commands</h1>
+        <p>A quick reference guide for essential version control commands.</p>
+
+        <h2>1. Setup & Configuration</h2>
+        <table>
+          <tr>
+            <th>Command</th>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td><code>git config --global user.name "Name"</code></td>
+            <td>Set your global username for commits.</td>
+          </tr>
+          <tr>
+            <td><code>git config --global user.email "email"</code></td>
+            <td>Set your global email for commits.</td>
+          </tr>
+          <tr>
+            <td><code>git init</code></td>
+            <td>Initialize a new local Git repository.</td>
+          </tr>
+        </table>
+
+        <h2>2. Basic Workflow</h2>
+        <table>
+          <tr>
+            <th>Command</th>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td><code>git status</code></td>
+            <td>
+              Check the status of your working directory and staging area.
+            </td>
+          </tr>
+          <tr>
+            <td><code>git add &lt;file&gt;</code></td>
+            <td>Add a specific file to the staging area.</td>
+          </tr>
+          <tr>
+            <td><code>git add .</code></td>
+            <td>Add all modified and new files to the staging area.</td>
+          </tr>
+          <tr>
+            <td><code>git commit -m "Message"</code></td>
+            <td>Commit staged changes with a descriptive message.</td>
+          </tr>
+        </table>
+
+        <h2>3. Working with Remote Repositories</h2>
+        <table>
+          <tr>
+            <th>Command</th>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td><code>git clone &lt;url&gt;</code></td>
+            <td>Clone a remote repository to your local machine.</td>
+          </tr>
+          <tr>
+            <td><code>git remote add origin &lt;url&gt;</code></td>
+            <td>Connect your local repository to a remote server.</td>
+          </tr>
+          <tr>
+            <td><code>git push -u origin main</code></td>
+            <td>Push local commits to the remote repository (main branch).</td>
+          </tr>
+          <tr>
+            <td><code>git pull</code></td>
+            <td>Fetch and merge changes from the remote repository.</td>
+          </tr>
+        </table>
+
+        <h2>4. Branching & Merging</h2>
+        <table>
+          <tr>
+            <th>Command</th>
+            <th>Description</th>
+          </tr>
+          <tr>
+            <td><code>git branch</code></td>
+            <td>List all local branches.</td>
+          </tr>
+          <tr>
+            <td><code>git checkout -b &lt;name&gt;</code></td>
+            <td>Create and switch to a new branch.</td>
+          </tr>
+          <tr>
+            <td><code>git checkout &lt;name&gt;</code></td>
+            <td>Switch to an existing branch.</td>
+          </tr>
+          <tr>
+            <td><code>git merge &lt;name&gt;</code></td>
+            <td>Merge the specified branch into your current branch.</td>
+          </tr>
+        </table>
+      </div>
     </main>
   </body>
 </html>
